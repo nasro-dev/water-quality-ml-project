@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className="bg-blue-400 mx-10">
+        <div className="bg-blue-400">
           <h1 className="font-bold text-2xl text-center my-4">Water Quality</h1>
         </div>
         <Card>
@@ -148,20 +148,14 @@ export default function Home() {
                   <Button
                     type="submit"
                     variant="contained"
-                    color="primary"
                     fullWidth
+                    className="bg-blue-600"
                   >
                     Check Result
                   </Button>
                 </Grid>
               </Grid>
             </form>
-            <div>
-              <h2>Nice Result</h2>
-            </div>
-            <div>
-              <h2>Bad Result</h2>
-            </div>
           </CardContent>
         </Card>
       </main>
